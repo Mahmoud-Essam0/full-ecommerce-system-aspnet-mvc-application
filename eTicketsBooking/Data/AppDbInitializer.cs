@@ -214,9 +214,9 @@ namespace eTicketsBooking.Data
                     context.SaveChanges();
                 }
                 //Actors & Movies
-                if (!context.ActorMovies.Any())
+                if (!context.ActorsMovies.Any())
                 {
-                    context.ActorMovies.AddRange(new List<ActorMovie>()
+                    context.ActorsMovies.AddRange(new List<ActorMovie>()
                     {
                         new ActorMovie()
                         {
